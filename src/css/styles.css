@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -32,4 +34,8 @@ li {
   list-style: none;
   padding: 20px;
   text-align: center;
+}
+.flagImg {
+  height: 20px;
+  width: 40px;
 }

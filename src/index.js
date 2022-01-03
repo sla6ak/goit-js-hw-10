@@ -21,10 +21,11 @@ function onCountryChenge() {
       console.log(arrCountrys);
       const htmlEl = arrCountrys => {
         return arrCountrys.map(country => {
-          console.log('языки это объект: ', Object.values(country.languages).join(''));
+          console.log('флаг в консоль вам: ', country.flags.svg);
           return `<li style = 'background-color:${getRandomHexColor()}'>
           <p>Страна: <span class="name-official">${country.name.official}</span></p>
         <p>столица: <span class="capital">${country.capital.join('')}</span></p>
+        <div>флаг: <img class='flagImg' src="${country.flags.svg}" alt="флаг страны" /></div>
         <p>языки: <span class="languages">${Object.values(country.languages).join('')}</span></p>
         <p>население: <span class="population">${country.population}</span></p>
       </li>`;
