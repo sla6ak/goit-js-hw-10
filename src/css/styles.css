@@ -13,22 +13,41 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-#search-box {
+header {
+  margin-bottom: 40px;
+}
+.forma {
+  display: flex;
+  font: inherit;
+  padding: 8px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.input-text {
   display: flex;
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
-
+.input-chek {
+  margin-left: 30px;
+}
+.input-number {
+  display: flex;
+  font: inherit;
+  padding: 8px;
+  max-width: 70px;
+  margin-left: 20px;
+  margin-right: auto;
+}
 .country-list {
   /* background-color: #ff4a4a; */
   display: block;
-  min-height: 30px;
+  min-height: 50px;
 }
 li {
   list-style: none;

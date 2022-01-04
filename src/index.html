@@ -7,10 +7,30 @@
     <title>Homework 10</title>
   </head>
   <body>
-    <input type="text" id="search-box" />
+    <header></header>
+    <div class="forma">
+      <label for="max-country">Показывать стран макимум:</label>
+      <input
+        min="1"
+        max="20"
+        value="10"
+        class="input-number"
+        placeholder="10"
+        type="number"
+        id="max-country"
+      />
+    </div>
+    <div class="forma">
+      <label for="detaly">Развернутая информация:</label>
+      <input class="input-chek" type="checkbox" id="detaly" />
+    </div>
+    <div class="forma">
+      <label for="search-box">Введите название страны:</label>
+      <input class="input-text" placeholder="Ukraine" type="text" id="search-box" />
+    </div>
+
     <ul class="country-list"></ul>
     <div class="country-info"></div>
-
     <script src="index.js"></script>
   </body>
 </html>
